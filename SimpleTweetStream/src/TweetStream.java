@@ -122,11 +122,11 @@ public class TweetStream {
 
         };
         FilterQuery fq = new FilterQuery();
-    
+        double[][] location = {{40.7142691},{-74.0059729}};
         String keywords[] = {"ireland"};
 
         fq.track(keywords);
-        //fq.locations(locations);
+        fq.locations(location);
 
         twitterStream.addListener(listener);
         twitterStream.filter(fq); 
