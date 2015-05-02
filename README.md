@@ -1,4 +1,4 @@
 TweetMap
 ========
 
-To show location of people who are tweeting using Google Map API
+To show location information of people who are tweeting using Google Maps API
