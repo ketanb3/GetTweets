@@ -22,10 +22,10 @@ public class TweetStream {
 	public static void main(String[] args) {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true);
-        cb.setOAuthConsumerKey("75205spF4m0CLsJpUb3TxMure");
-        cb.setOAuthConsumerSecret("3ZqDd9habcEDrn0FHDrb7sKmJdandwtmitxniCxqZaHCMuUHtS");
-        cb.setOAuthAccessToken("338369841-mpTf9Kbpd5pJtKSsVimFpyUL26qk3q7kRPKex1nF");
-        cb.setOAuthAccessTokenSecret("eGDsDWtgyvw90UFrvRQmi2NjX2YLJwjT10rJs6xIYwLZ5");
+        cb.setOAuthConsumerKey("");
+        cb.setOAuthConsumerSecret("");
+        cb.setOAuthAccessToken("");
+        cb.setOAuthAccessTokenSecret("");
 
         TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
         
